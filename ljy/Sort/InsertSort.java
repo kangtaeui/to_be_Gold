@@ -13,6 +13,6 @@ public void InsertSort() {
       }
     }
   }
-  a
+  
   System.out.println("정렬 후 " + numList); // 오름차순 선택 정렬
 }
