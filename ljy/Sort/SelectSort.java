@@ -4,7 +4,7 @@ public void SelectSort() {
   
   System.out.println("정렬 전 " + numList); // 4, 5, 1, 3, 2	
   
-  for (int i = 0; i < numList.size(); i++) {
+  for (int i = 0; i < numList.size() - 1; i++) {
     
     int min = numList.get(i);
     int minI = i;
