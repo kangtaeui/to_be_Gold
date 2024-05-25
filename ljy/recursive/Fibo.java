@@ -5,16 +5,18 @@ class Fibo {
 	public static void main(String[] args) {
 		System.out.println("Fibo Start");
 
-		List<Integer> fibo = new ArrayList<Integer>();
+		int n = 10;
 
-		for (int i = 0; i < 10; i++) {
-			if (i == 0 || i == 1) {
-				fibo.add(1);
-			} else {
-				fibo.add(fibo.get(i - 1) + fibo.get(i - 2));
-			}
-
-			System.out.println(fibo);
+		for (int i = 0; i < n; i++) {
+			System.out.println(fibo(i));
 		}
+	}
+
+	public static int fibo(int i) {
+		if (i < 2) {
+			return 1;
+		} 
+
+		return fibo(i - 1) + fibo(i - 2);
 	}
 }
