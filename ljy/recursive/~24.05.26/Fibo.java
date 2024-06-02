@@ -6,7 +6,7 @@ class Fibo {
 		System.out.println("Fibo Start");
 
 		int n = 10;
-
+		
 		for (int i = 0; i < n; i++) {
 			System.out.println(fibo(i));
 		}
